@@ -1,0 +1,49 @@
+.hero_card {
+    min-width: 1000px;
+    min-height: 445px;
+    background-color: $dark-desaturated-blue;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 20px;
+    .hero_card__image__container {
+        flex: 1;
+        display: flex;
+        background-image: url(/images/image-header-desktop.jpg);
+        .hero_card__image__content {
+            background-color: $soft-violet-over;
+            flex: 1;
+        }
+    }
+    .hero_card__text__container {
+        flex: 1;
+        padding: 20px;
+        h1 {
+            span {
+                color: $soft-violet;
+            }
+        }
+        p {
+            color: $white-paragraph;
+            font-size: 12px;
+            font-weight: 200;
+        }
+        .hero_card__meta__container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 0.2em;
+            .hero_card__meta {
+                flex: 1;
+                p{
+                    font-size: large;
+                    font-weight: 700;
+                }
+                span {
+                    color: $white-stat-heading;
+                    font-size: 12px;
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+}
