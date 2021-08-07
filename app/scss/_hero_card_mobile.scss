@@ -1,0 +1,36 @@
+@media only screen and (max-width : 411px) {
+    body {
+        padding: 20px;
+    }
+    .hero_card {
+        display: flex;
+        flex-direction: column;
+        .hero_card__image__container {
+            flex: 1;
+            min-height: 250px;
+            display: flex;
+            background-image: url(../../images/image-header-mobile.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            .hero_card__image__content {
+                flex: 1;
+            }
+        }
+        .hero_card__text__container {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            .hero_card__meta__container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .hero_card__meta {
+                    p {
+                        margin: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

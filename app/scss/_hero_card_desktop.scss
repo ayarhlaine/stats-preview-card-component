@@ -1,0 +1,38 @@
+@media screen 
+  and (min-device-width: 412px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .hero_card {
+        min-width: 1000px;
+        min-height: 350px;
+        display: flex;
+        flex-direction: row-reverse;
+        .hero_card__image__container {
+            flex: 1;
+            display: flex;
+            background-image: url(../../images/image-header-desktop.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            .hero_card__image__content {
+                flex: 1;
+            }
+        }
+        .hero_card__text__container {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: space-between;
+            .hero_card__meta__container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .hero_card__meta {
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

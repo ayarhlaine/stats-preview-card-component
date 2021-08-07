@@ -9,15 +9,14 @@ html {
 
 body {
     height: 100vh;
+    display: grid;
+    place-items: center;
     margin: 0;
-    padding: 0;
     font-family: $font-family-inter;
     font-size: $body-font-size;
     font-weight: 400;
     color: $white;
     background-color: $very-dark-blue;
-    display: grid;
-    place-items: center;
     &.no_scroll {
         overflow: hidden;
     }
