@@ -7,15 +7,16 @@
         }
     }
     .hero_card__text__container {
-        padding: 20px;
+        padding: 2.5rem;
         .hero_card__title {
+            font-size: 30px;
             span {
                 color: $soft-violet;
             }
         }
         .hero_card__description {
             color: $white-paragraph;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 400;
             font-family: $font-family-lexend-deca;
         }
